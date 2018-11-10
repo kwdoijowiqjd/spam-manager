@@ -30,7 +30,7 @@ bot1.on('message', message => {
     if(message.content.startsWith('start manage')) {
             setInterval(()=>{
             message.channel.send(`!spam`)
-        },1800000);
+        },1800);
         }})
 
 
